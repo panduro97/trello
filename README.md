@@ -25,7 +25,7 @@ Trello: https://trello.com/
 * View 1:
     * This view must be used to login. Implement any authorization method, the result of the login must return the Trello Token and Key necessary to do request to the API.
 * View 2:
-    * Immediately after login, the application must redirect to a list with all your Trello's work spaces (Organizations)
+    * Immediately after login, the application must redirect to a list with all your Trello's workspaces (Organizations)
         * The user must be able to: Update / Create / Delete Organizations.
 * View 3:
     * If the user selects a workspace, the application must redirect to another list with all boards assigned to that workspace.
@@ -42,9 +42,10 @@ Trello: https://trello.com/
             * Description
             * Due date
             * Assign multiple members
+               * The UI must show the display name of the members not the IDs
 
 * Notification:
-    * If the user deletes any record, send an email notification (Don't include your email credentials in your GitHub project).
+    * If the user deletes any record, send an email notification (Don't include your email credentials in your project).
         * Send the email to any email you want.
         * Implement this step in the back end thru an API call.
         * In the email body add:
