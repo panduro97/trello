@@ -20,7 +20,7 @@ The rules are the following:
 
 Trello: https://trello.com/
 
-##  Use Case
+##  Instructions
 
 * View 1:
     * This view must be used to login. Implement any authorization method, the result of the login must return the Trello Token and Key necessary to do request to the API.
