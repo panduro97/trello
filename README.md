@@ -14,7 +14,7 @@ The rules are the following:
 * Don't expose Trello API keys in the front end.
 * No mockup will be provided, you are totally free on the way you want to design this little application.
 * Fork this project.
-* Once you finished, send an email to: ivan.carrillo@freeagentsoftware
+* Once you finished, send an email to: ivan.carrillo@freeagentsoftware.com and veronica.tunas@freeagentsoftware.com 
     * The email must contain a link to your github project.
     * Attach a video showing how your application works.
 
