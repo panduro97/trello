@@ -19,6 +19,8 @@ The rules are the following:
     * Attach a video showing how your application works.
 
 Trello: https://trello.com/
+API Introduction: https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/
+API Reference: https://developer.atlassian.com/cloud/trello/rest/api-group-actions/
 
 ##  Instructions
 
