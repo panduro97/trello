@@ -16,9 +16,9 @@ The rules are the following:
     * The email must contain a link to your github project.
     * Attach a video showing how your application works.
 
-Trello: https://trello.com/
-API Introduction: https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/
-API Reference: https://developer.atlassian.com/cloud/trello/rest/api-group-actions/
+- Trello: https://trello.com/
+- API Introduction: https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/
+- API Reference: https://developer.atlassian.com/cloud/trello/rest/api-group-actions/
 
 ##  Instructions
 
