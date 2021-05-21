@@ -4,8 +4,6 @@ We really appreciate your time to take this exercise. Do your best and we hope t
 
 We need to connect with Trello's API to show in a web UI the Workplaces, Boards and Cards.
 
-The user must be able to CRUD the data, like for example, create a new card for a board, edit the name of a board or even delete a board with all its cards included.
-
 The rules are the following:
 
 * FE: Use React or Vue as Framework.
@@ -25,29 +23,25 @@ API Reference: https://developer.atlassian.com/cloud/trello/rest/api-group-actio
 ##  Instructions
 
 * View 1:
-    * This view must be used to login. Implement any authorization method, the result of the login must return the Trello Token and Key necessary to do request to the API.
+    * This view must be used to login. Implement any authorization method, the result of the login must return the Trello Token and Key necessary to do requests to Trello's API.
+
 * View 2:
-    * Immediately after login, the application must redirect to a list with all your Trello's workspaces (Organizations)
-        * The user must be able to: Update / Create / Delete Organizations.
-* View 3:
-    * If the user selects a workspace, the application must redirect to another list with all boards assigned to that workspace.
-        * This view must have a header, with the workspace name and workspace description. 
-        * All CRUD methods must be implemented (Update / Create / Delete boards)
-* View 4:
-    * If the user selects a board, the application must redirect to a grouped list with all cards related to the board.
-        * The cards must be grouped by stage.
-        * This view must have a header with the board name. 
-        * If a card has activities, list the activities list per each card.
-            * Must be clear to which card the activity belongs.
-        * To create or update a card, you need to at least being able to fill the following fields:
-            * Title
-            * Description
-            * Due date
-            * Assign multiple members
-               * The UI must show the display name of the members not the IDs
+    * Immediately after login:
+      * There must be a dropdown to select the workspace (Organization)
+      * Once the workspace is selected, a second dropdown must be enabled to select the board (Boards assigned to the selected workspace)
+      * Once a board is selected, a grouped list must be created in the bottom with the list of cards
+         *  The cards must be grouped by stage
+         *  If the card contains activities, the activities must be listed (Must be clear to which card the activity belongs)
+         *  The user must be able to Create/Update cards. 
+            *  To create or update a card, the user must be able to at least fill the following information:
+               *  Title
+               *  Description
+               *  Due Date
+               *  Assign to multiple members
+                  *  The UI must show the display name of the members not the ID's
 
 * Notification:
-    * If the user deletes any record, send an email notification (Don't include your email credentials in your project).
+    * If the user deletes a card, send an email notification (Don't include your email credentials in your project).
         * Send the email to any email you want.
         * Implement this step in the back end thru an API call.
         * In the email body add:
