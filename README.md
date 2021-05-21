@@ -2,7 +2,7 @@
 
 We really appreciate your time to take this exercise. Do your best and we hope to hear from you soon! 
 
-We need to connect with Trello's API to show in a web UI the boards and cards of each board. 
+We need to connect with Trello's API to show in a web UI the Workplaces, Boards and Cards.
 
 The user must be able to CRUD the data, like for example, create a new card for a board, edit the name of a board or even delete a board with all its cards included.
 
