@@ -8,6 +8,7 @@ The rules are the following:
 
 * FE: Use React or Vue as Framework.
 * BE: Use node js.
+* Keep the FE and BE separated, as two different projects.
 * Don't use Trello's client library. Interact with Trello only thru the REST API.
 * Don't expose Trello API keys in the front end.
 * No mockup will be provided, you are totally free on the way you want to design this little application.
@@ -15,7 +16,6 @@ The rules are the following:
 * Once you finished, send an email to: ivan.carrillo@freeagentsoftware.com and veronica.tunas@freeagentsoftware.com 
     * The email must contain a link to your github project.
     * Attach a video showing how your application works.
-
 - Trello: https://trello.com/
 - API Introduction: https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/
 - API Reference: https://developer.atlassian.com/cloud/trello/rest/api-group-actions/
